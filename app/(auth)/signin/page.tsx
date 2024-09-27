@@ -1,8 +1,5 @@
+import { SignInComponent } from "@/components/Signin";
+
 export default function Home() {
-    return (
-     <div>
-        hi there
-     </div>
-    );
-  }
-  
+  return <SignInComponent />;
+}
